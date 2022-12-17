@@ -1,11 +1,10 @@
-package com.selenium;
+package com.base.core.automationBase;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -65,7 +64,7 @@ public class TestBase {
         } else if (environment.equals("UAT")) {
             baseUrl = "https://www.amazon.in/";
         } else if (environment.equals("PROD")) {
-            baseUrl = "https://www.flipkart.com/";
+            baseUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
         } else {
             System.out.println("Invalid environment: " + environment);
         }
