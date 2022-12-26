@@ -60,4 +60,9 @@ public class Test1 extends TestBase {
     public void m8() {
         System.out.println("Test method m8 started");
     }
+
+    @Test
+    public void m9() {
+        System.out.println("Test method m9 started");
+    }
 }

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d555ad5a-1ddf-4246-95f1-3ae0dc5257d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/common/CommonFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/common/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/core/automationBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/core/automationBase/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/core/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/core/utils/SeleniumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/common/CommonNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/common/CommonNavigation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +103,17 @@
       <updated>1671024768212</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
