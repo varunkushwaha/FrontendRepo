@@ -16,6 +16,7 @@ public class TestBase {
     public static WebDriver driver;
     public static Properties pro;
 
+
     public TestBase() {
         try {
             String FilePath = "src/test/Resources/config/config.properties";

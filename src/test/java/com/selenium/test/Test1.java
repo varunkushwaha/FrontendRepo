@@ -1,22 +1,24 @@
 package com.selenium.test;
 
 import com.base.core.automationBase.TestBase;
-import com.selenium.common.CommonNavigation;
+import com.base.core.utils.SeleniumUtils;
+import com.selenium.common.CommonFlow;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Test1 extends TestBase {
-    CommonNavigation common;
+    CommonFlow flow ;
     public Test1() {
         super();
     }
 
     @BeforeMethod
-    public void loginToApplication() {
-        common = new CommonNavigation();
+    public void loginToApplication() throws InterruptedException {
         System.out.println("Login to the started");
-        common.loginToOrangeHrm();
-        System.out.println("Login to the application");
+        flow = new CommonFlow(driver);
+        flow.loginToApplication();
+        SeleniumUtils.sleep(10);
+        System.out.println("Login to the application successfully");
     }
 
     @Test
@@ -29,4 +31,33 @@ public class Test1 extends TestBase {
         System.out.println("Test method m2 started");
     }
 
+    @Test
+    public void m3() {
+        System.out.println("Test method m3 started");
+    }
+
+    @Test
+    public void m4() {
+        System.out.println("Test method m4 started");
+    }
+
+    @Test
+    public void m5() {
+        System.out.println("Test method m5 started");
+    }
+
+    @Test
+    public void m6() {
+        System.out.println("Test method m6 started");
+    }
+
+    @Test
+    public void m7() {
+        System.out.println("Test method m7 started");
+    }
+
+    @Test
+    public void m8() {
+        System.out.println("Test method m8 started");
+    }
 }

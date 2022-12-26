@@ -1,3 +1,4 @@
+/*
 package com.selenium.common;
 
 import com.base.core.automationBase.TestBase;
@@ -24,3 +25,4 @@ public class CommonNavigation extends TestBase {
         loginButton.click();
     }
 }
+*/

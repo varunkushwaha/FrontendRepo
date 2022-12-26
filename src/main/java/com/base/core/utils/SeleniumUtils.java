@@ -49,25 +49,25 @@ public class SeleniumUtils {
     }
 
     /**
-     *locators: locators for which want to apply webdriver wait
+     *locators: locators for which want to apply web-driver wait
      *seconds : Wait in seconds
      **/
-   /* public static void WebDriverWait(WebDriver driver, double seconds, By locators) {
+   public static void WebDriverWait(WebDriver driver, double seconds, By locators) {
         WebDriverWait wait = new WebDriverWait(driver, (long) (1000 * seconds));
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locators));
-    }*/
+    }
 
     /**    // Revisit
      *locators: locators for which want to apply fluent wait
      *seconds : Wait in seconds
      * pollingPeriod: pollingPeriod in seconds
      **/
- /*   public static void FluentWait(WebDriver driver, double seconds, double pollingPeriod,By locators) {
+   public static void FluentWait(WebDriver driver, double seconds, double pollingPeriod,By locators) {
         Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
                 .withTimeout((long)(1000*seconds), TimeUnit.SECONDS)
                 .pollingEvery((long)(1000*pollingPeriod),TimeUnit.SECONDS)
                 .ignoring(NoSuchElementException.class);
-    }*/
+    }
 
     public static void doubleClick(WebDriver driver , WebElement ele){
         Actions act = new Actions(driver);
